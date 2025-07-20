@@ -180,7 +180,7 @@ export default function About() {
                             Our Core Values
                         </h2>
                         <p className="text-gray-600 max-w-2xl mx-auto">
-                            Our values are inspired by international professional standards including IFAC, ACCA, ICSA, ISACA, and PAAB.
+                            Our values are inspired by international professional standards including IFAC, ACCA, Chartered Governance and Accountancy Institute in Zimbabwe, ISACA, and PAAB.
                         </p>
                     </div>
 
