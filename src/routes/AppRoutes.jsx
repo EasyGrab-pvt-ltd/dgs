@@ -3,6 +3,10 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "../Pages/Home.jsx";
 import About from "../Pages/About.jsx";
 import Services from "../Pages/Services.jsx";
+import Resources from "../Pages/Resources.jsx";
+import ContactUs from "../Pages/ContactUs.jsx";
+import BlogInsights from "../Pages/BlogInsights.jsx";
+import Careers from "../Pages/Careers.jsx";
 
 const AppRoutes = () => {
     return (
@@ -11,9 +15,10 @@ const AppRoutes = () => {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/services" element={<Services/>}/>
-                <Route path="/resources" element={<Services/>}/>
-                <Route path="/contact" element={<Services/>}/>
-                <Route path="/careers" element={<Services/>}/>
+                <Route path="/resources" element={<Resources/>}/>
+                <Route path="/contact" element={<ContactUs/>}/>
+                <Route path="/blog" element={<BlogInsights/>}/>
+                <Route path="/careers" element={<Careers/>}/>
             </Routes>
         </Router>
     );

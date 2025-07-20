@@ -12,12 +12,13 @@ export default function Nav() {
     };
 
     const navItems = [
-        { name: 'Home', href: '' },
+        { name: 'Home', href: '/' },
         { name: 'About', href: 'about' },
         { name: 'Services', href: 'services' },
         { name: 'Resources', href: 'resources', featured: true },
         { name: 'Contact Us', href: 'contact', featured: true },
-        { name: 'Careers', href: 'careers' },
+        { name: 'Blog', href: 'blog', featured: true },
+        // { name: 'Careers', href: 'careers' },
     ];
     const handleNavigate=(link)=>{
         navigate(link)
@@ -37,8 +38,9 @@ export default function Nav() {
                                 className="text-2xl font-bold hover:scale-105 transform transition-transform duration-300"
                                 style={{ color: '#fdcc29' }}
                             >
-                                logo
-                                {/*<img src="/assets/dgslogo.png" alt=""  />*/}
+
+                                <img src="/assets/dgslogo.png" alt="" style={{ maxWidth: 90, height: 50 }} />
+
                             </a>
                         </div>
 
