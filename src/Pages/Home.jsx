@@ -479,9 +479,9 @@ const Home = () => {
 
                         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                             {[
-                                {icon: Phone, text: "+263 xxx xxx xxx", delay: "0s"},
-                                {icon: Mail, text: "info@distinctgolden.co.zw", delay: "0.2s"},
-                                {icon: MapPin, text: "Harare, Zimbabwe", delay: "0.4s"}
+                                {icon: Phone, text: "+263 2922 62208", delay: "0s"},
+                                {icon: Mail, text: "dgoldenservices@gmail.com", delay: "0.2s"},
+                                {icon: MapPin, text: "Bulawayo, Zimbabwe", delay: "0.4s"}
                             ].map((contact, index) => (
                                 <div
                                     key={index}
